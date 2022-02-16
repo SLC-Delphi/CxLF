@@ -1,0 +1,14 @@
+duas varreduras
+
+do bloco de 17, ter extamenente 12
+= amarradas =
+no bloco de 08, ter exatamente 3
+
+estatisticas.net
+jcbaleeiro@bol.com.br
+071956
+
+
+select *
+from E_SORTEIO_15N
+order by N_SORTEIO

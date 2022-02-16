@@ -1,0 +1,47 @@
+Win64/
+Win32/
+Anexos_201736/
+BKP_09_Outubro_2017/
+BKP_16_Outubro_2017/
+BKP_19_Agosto_2017/
+BKP_20_Fevereiro_2018/
+BKP_20_Junho_2018_Simulacao03/
+BKP_28_SETEMBRO_2018/
+Conjunto16_01/
+Gerador_ConjuntoDe18_com07/
+Importar_Delphi7/
+Importar_TodosSorteios_ate2030/
+MiltiThread/
+
+
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.dcp
+*.so
+*.apk
+*.drc
+*.map
+*.dres
+*.rsm
+*.tds
+*.dcu
+*.lib
+*.a
+*.o
+*.ocx
+*.cdr
+*.xls
+*.xlsx
+
+# Delphi history and backups
+__history/
+__recovery/
+*.~*
+
+# Castalia statistics file (since XE7 Castalia is distributed with Delphi)
+*.stat
+
+# Boss dependency manager vendor folder https://github.com/HashLoad/boss
+modules/

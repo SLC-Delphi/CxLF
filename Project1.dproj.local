@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/12/09 20:26:29.000.719,=C:\CXLOTOFACIL - xe8\Unit2.pas</Transaction>
+    <Transaction>2019/12/09 20:50:37.000.962,C:\CXLOTOFACIL - xe8\Unit2.pas=C:\CXLOTOFACIL - xe8\uGeradorRanking01.pas</Transaction>
+    <Transaction>2019/12/09 20:50:37.000.962,C:\CXLOTOFACIL - xe8\Unit2.dfm=C:\CXLOTOFACIL - xe8\uGeradorRanking01.dfm</Transaction>
+    <Transaction>2020/02/10 14:39:42.000.625,=C:\CXLOTOFACIL - xe8\uGerador_1Linha19e1de6.pas</Transaction>
+    <Transaction>2020/07/16 12:07:51.000.856,=C:\CXLOTOFACIL - xe8\Project1.todo</Transaction>
+    <Transaction>2020/08/05 09:51:13.000.172,=C:\CXLOTOFACIL - xe8\uCjtos13Linhas8por5Impares.pas</Transaction>
+    <Transaction>2020/08/11 09:27:31.000.369,=C:\CXLOTOFACIL - xe8\uCjtos13Linhas7por6Impares.pas</Transaction>
+  </Transactions>
+</BorlandProject>

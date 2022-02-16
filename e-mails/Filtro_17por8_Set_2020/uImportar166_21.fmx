@@ -1,0 +1,94 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 549
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Padding.Left = 9.000000000000000000
+    Padding.Top = 9.000000000000000000
+    Padding.Right = 9.000000000000000000
+    Padding.Bottom = 9.000000000000000000
+    Size.Width = 549.000000000000000000
+    Size.Height = 431.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      StyledSettings = [Family, Style, FontColor]
+      TextSettings.Font.Size = 16.000000000000000000
+      Align = Client
+      Size.Width = 531.000000000000000000
+      Size.Height = 413.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 527.000000000000000000
+      Viewport.Height = 409.000000000000000000
+    end
+  end
+  object Layout2: TLayout
+    Align = Top
+    Position.Y = 431.000000000000000000
+    Size.Width = 549.000000000000000000
+    Size.Height = 401.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object Bt_Importar3Blocos: TButton
+      Position.X = 9.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Importar 3 Blocos'
+      OnClick = Bt_Importar3BlocosClick
+    end
+    object Bt_Importar116: TButton
+      Position.X = 162.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 111.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Importar 116'
+      OnClick = Bt_Importar116Click
+    end
+  end
+  object StyleBook1: TStyleBook
+    Left = 10
+    Top = 15
+    ResourcesBin = {464D585F5354594C4520322E350100}
+  end
+  object IBDatabase1: TIBDatabase
+    Connected = True
+    DatabaseName = 'C:\CxLotoFacil\COMBINACOES_15.FDB'
+    Params.Strings = (
+      'user_name=sysdba'
+      'password=masterkey')
+    LoginPrompt = False
+    DefaultTransaction = IBTransaction1
+    ServerType = 'IBServer'
+    Left = 519
+    Top = 24
+  end
+  object IBTransaction1: TIBTransaction
+    Left = 519
+    Top = 80
+  end
+  object IBQuery1: TIBQuery
+    Database = IBDatabase1
+    Transaction = IBTransaction1
+    BufferChunks = 1000
+    CachedUpdates = False
+    ParamCheck = True
+    Left = 519
+    Top = 144
+  end
+end
