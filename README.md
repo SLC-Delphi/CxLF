@@ -12,4 +12,4 @@ Observação 2: Serviços concluídos.
 
 Observação 3: O uso de bando de dadso Firebird, aqui é exclusivamente para evitar estouro de memória (a não ser que a máquina utilizada tenha 32GB ou mais de RAM), por iso o não uso de MVC, ORM.
 
-Observação 4: - Para boas práticas, clean code, MVC, ORM, DAO vide o repostiório: https://github.com/SLC-Delphi/Hallifax
+Observação 4: - Para boas práticas, clean code, MVC, ORM, DAO, Telas responsivas - vide o repostiório: https://github.com/SLC-Delphi/Hallifax
